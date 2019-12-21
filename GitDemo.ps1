@@ -2,7 +2,7 @@
 Set-Location C:\GitRepos\
 
 # we need to work with a repo:
-git clone https://github.com/sqldeployhelmet/GitDemo_<name>.git GitDemo
+git clone https://github.com/sqldeployhelmet/GitDemo.git GitDemo
 
 <# we need to add a new file to our repo to describe the purpose#>
 
@@ -57,7 +57,7 @@ Set-Location ..\GitDemo
 Code .\readme.txt
 
 git add .\readme.txt
-git commit -m "The One with Updates to the Readme"
+git commit -m "The One with Updates to the Readme (a)"
 git push origin
 
 
