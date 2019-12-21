@@ -7,13 +7,13 @@
     repo 
 #>
 
-Set-Location C:\GitRepos\GitDemoBase
+Set-Location C:\GitRepos\GitDemoDev
 
 # ensure we are in master:
 git checkout master
 
 # ensure local is up todate:
-git pull https://github.com/sqldeployhelmet/GitDemoBase.git
+git pull https://github.com/sqldeployhelmet/GitDemoClean.git
 
-#push to the demo location (must manually create in github first):
-git push --mirror https://github.com/sqldeployhelmet/gitdemo_<name>.git
+# push to the demo location (must manually create in github first):
+git push --mirror https://github.com/sqldeployhelmet/gitdemo.git
